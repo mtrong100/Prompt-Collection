@@ -1,0 +1,38 @@
+{
+    "Hashtag and SEO tags for a YouTube video": [
+        {
+            "title": "new prompt 01",
+            "prompt": "- Create a engaging short Caption (note: the caption should be engaging, reflect the video's content or theme) based on the YouTube video titled:\n\n- Create trending, engaging, high-impact Hashtags and SEO tags based on the YouTube video titled.\n\n- Return hashtags in a single line, properly formatted (e.g., #HelloWorld), optimized for discoverability.\n\n- Return SEO tags in a single line, separated by commas, relevant to the title's keywords.\n\n- Provide results in plain text only, without styling, symbols, explanations, or recommendations and must following my example format results\n\n-> Example format result:\nCaption: [add caption here]\n\nHashtags: [add hashtags here]\n\nSEO tags: [add SEO tags here]"
+        }
+    ],
+    "Doujinshi Review Script": [
+        {
+            "title": "new prompt 01",
+            "prompt": "Task 1:\r\n- I’m creating a YouTube video focused on a doujinshi review. Using the incomplete script I provide, generate a short and engaging narrative context. The content should briefly introduce the background or setup, highlight key elements in a creative and compelling way, and ensure the tone fits the doujinshi review style. Re-make and develop the script to proper with YouTube community guidelines  \r\n- Update and expand the script to make it around 400 words long. Make it cohesive, modern, appropriate for today’s audience, and aligned with community guidelines.  \r\n- Include a strong opening and closing sentence for the video.  Make sure to add an opening like greeting and end sentence for my viewers\r\n- Provide the result in plain text only, with no formatting, symbols, or explanations. Keep everything simple and clean.  \r\n- This is the incomplete script: \r\n\r\nTask 2:\r\n- Generate a very short descripion related to the story. \r\n- Create a short caption (the caption should be engaging, reflect the video's content or theme) related to story\r\n- Suggest for me 3 options for catchy, curiosity-driven long titles (do not mentioned doujinshi in the title) and thumbnail texts\r\n- Provide the result in plain text only, with no formatting, symbols, or explanations. Keep everything simple and clean."
+        }
+    ],
+    "Game Review Script": [
+        {
+            "title": "new prompt 01",
+            "prompt": "Task 1:\r\n- I’m creating a YouTube video focused on a game review. Create a YouTube video script for a professional game review for the game \r\n- The review should thoroughly evaluate the game's gameplay, graphics, story, and overall experience, offering insightful and balanced analysis without being too brief or excessively detailed. Craft the review in a professional yet engaging, using the story telling style that matches the tone and theme of the game, ensuring it captivates the audience. Structure the script clearly with an introduction, body sections for each aspect (gameplay, graphics, story, overall experience), and a conclusion. The script might be around 900 WORDS long and written in plain text, free of styling, symbols, or formatting.\r\n- Include a strong opening and closing sentence for the video.  Make sure to add an opening like greeting and end sentence for my viewers\r\n-> Infomation about the game reviewed\r\n- Game: \r\n- Link: \r\n\r\nTask 2:\r\n- Generate a very short descripion related to the game. \r\n- Create a short caption (the caption should be engaging, reflect the video's content or theme) related to the game\r\n- Create trending, high-impact Hashtags and SEO tags that related to the game.\r\n- Return hashtags in a single line, properly formatted (e.g., #HelloWorld), optimized for discoverability.\r\n- Return SEO tags in a single line, separated by commas\r\n- Provide results in plain text only, without styling, symbols, explanations, or recommendations and must following my example format results\r\n-> Example format result:\r\nCaption: [add caption here]\r\n(breakline)\r\nDescription: [add descripion here]\r\n(breakline)\r\nHashtags: [add hashtags here]\r\n(breakline)\r\nSEO tags: [add SEO tags here]\r\n"
+        }
+    ],
+    "Anime Review Script": [
+        {
+            "title": "new prompt 01",
+            "prompt": "Task 1:\r\n- I’m creating a YouTube video focused on a anime review. I need help rewriting an incomplete script to improve its consistency, flow, and overall quality, while ensuring it aligns with the current YouTube community guidelines. Please keep all original character names and the storyline intact, but update the content to better fit modern standards and viewer expectations.\r\n- Make the script engaging, cohesive, and well-structured with a natural storytelling tone that matches the style of the anime being recapped. The final version must be at least 400 words long and include a strong opening and closing line that clearly indicate this is a YouTube video script.\r\n- Provide the revised script in plain text only no formatting, symbols, or extra explanations. Keep it simple and clean.\r\n- This is the incomplete script: \r\n\r\nTask 2:\r\n- Create a short caption (the caption should be engaging, reflect the video's content or theme) related to story\r\n- Generate a very short descripion related to the story. \r\n- Give me 3 catchy, curiosity-driven long title options based on the original script.  \r\n- Provide results in plain text only, without styling, symbols, explanations, or recommendations"
+        }
+    ],
+    "Social Media Post Script": [
+        {
+            "title": "new prompt 01",
+            "prompt": "- I’m a content creator on social media and i gonna post a picture of anime artwork. \r\n- Provide me a compelling, catchy, attention-grabbing and curiosity-driven style title and some hashtags related and a short description that related too\r\n- Must use emojis in the title and description\r\n- The title can not exceed 32 characters\r\n- Using the style that fit with the image \r\n- Return the result in plain text only, without any styling, symbols, or formatting and never use this character \"\" in my post. Just simple and clean text. Also no explaination and recomendation at all please!\r\n-> Expected return result follow this example format\r\nThis is title\r\n(breakline)\r\nThis is description\r\n(breakline)\r\nThis is hashtags"
+        }
+    ],
+    "Coding Prompt": [
+        {
+            "title": "new prompt 01",
+            "prompt": "Tạo web theo yêu cầu sau\r\nYêu cầu chung:\r\n- Tách project thành 3 file riêng: index.html, style.css, script.js\r\n- Thiết kế UI đẹp mắt theo xu hướng web 2024–2025. UX phải thân thiện, dễ sử dụng. Chọn font chữ và màu sắc hợp lý\r\n- Giao diện phải responsive (tương thích trên nhiều thiết bị)\r\n- Hỗ trợ 2 chế độ giao diện: sáng và tối, lưu theme vào localStorage\r\n- Web phải có hiệu ứng (animation), có thể CSS thuần hoặc dùng thư viện (AOS - Animate On Scroll Library)\r\n- Code sạch, có comment rõ ràng\r\n- Thêm các SEO meta tag cần thiết vào file HTML\r\n- Cập nhật đầy đủ nội dung cho file README.md\r\nYêu cầu chức năng:\r\n- Tạo web app đơn giản theo mô hình ABC với chức năng chính là XYZ\r\n- Phải có các chức năng cơ bản và nâng cao cho người dùng\r\n- Dữ liệu lưu trữ bằng localStorage, không dùng backend"
+        }
+    ]
+}

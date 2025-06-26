@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern web interface for managing and viewing creative prompts"
+    />
+    <meta
+      name="keywords"
+      content="prompts, creative writing, content creation, YouTube scripts, coding"
+    />
+    <title>Prompt Collection Manager</title>
+    <link rel="icon" href="/favicon.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Prompt Collection</h1>
+        <div class="header-controls">
+          <div class="view-mode">
+            <button id="columnView" class="active" title="Column View">
+              <i class="fas fa-align-justify"></i>
+            </button>
+            <button id="grid2View" title="2 Column Grid">
+              <i class="fas fa-th-large"></i>
+            </button>
+            <button id="grid3View" title="3 Column Grid">
+              <i class="fas fa-th"></i>
+            </button>
+          </div>
+          <div class="theme-toggle">
+            <button id="themeBtn" title="Toggle Theme">
+              <i class="fas fa-moon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search prompts..." />
+        <button id="searchBtn"><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="categories-container column-view" id="categoriesContainer">
+        <!-- Categories will be loaded here from JSON -->
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 Prompt Collection Manager</p>
+      </div>
+    </footer>
+
+    <div class="notification" id="notification">
+      <i class="fas fa-check-circle"></i> Copied to clipboard!
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
