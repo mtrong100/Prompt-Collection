@@ -2,7 +2,7 @@
     "Hashtag and SEO tags for a YouTube video": [
         {
             "title": "new prompt 01",
-            "prompt": "- Create a engaging short Caption (note: the caption should be engaging, reflect the video's content or theme) based on the YouTube video titled:\n\n- Create trending, engaging, high-impact Hashtags and SEO tags based on the YouTube video titled.\n\n- Return hashtags in a single line, properly formatted (e.g., #HelloWorld), optimized for discoverability.\n\n- Return SEO tags in a single line, separated by commas, relevant to the title's keywords.\n\n- Provide results in plain text only, without styling, symbols, explanations, or recommendations and must following my example format results\n\n-> Example format result:\nCaption: [add caption here]\n\nHashtags: [add hashtags here]\n\nSEO tags: [add SEO tags here]"
+            "prompt": "- Create a engaging short Caption (note: the caption should be engaging, reflect the video's content or theme) based on the YouTube video titled:\n- Create trending, engaging, high-impact Hashtags and SEO tags based on the YouTube video titled.\n- Return hashtags in a single line, properly formatted (e.g., #HelloWorld), optimized for discoverability.\n- Return SEO tags in a single line, separated by commas, relevant to the title's keywords.\n- Provide results in plain text only, without styling, symbols, explanations, or recommendations"
         }
     ],
     "Doujinshi Review Script": [
@@ -33,6 +33,18 @@
         {
             "title": "new prompt 01",
             "prompt": "Tạo web theo yêu cầu sau\r\nYêu cầu chung:\r\n- Tách project thành 3 file riêng: index.html, style.css, script.js\r\n- Thiết kế UI đẹp mắt theo xu hướng web 2024–2025. UX phải thân thiện, dễ sử dụng. Chọn font chữ và màu sắc hợp lý\r\n- Giao diện phải responsive (tương thích trên nhiều thiết bị)\r\n- Hỗ trợ 2 chế độ giao diện: sáng và tối, lưu theme vào localStorage\r\n- Web phải có hiệu ứng (animation), có thể CSS thuần hoặc dùng thư viện (AOS - Animate On Scroll Library)\r\n- Code sạch, có comment rõ ràng\r\n- Thêm các SEO meta tag cần thiết vào file HTML\r\n- Cập nhật đầy đủ nội dung cho file README.md\r\nYêu cầu chức năng:\r\n- Tạo web app đơn giản theo mô hình ABC với chức năng chính là XYZ\r\n- Phải có các chức năng cơ bản và nâng cao cho người dùng\r\n- Dữ liệu lưu trữ bằng localStorage, không dùng backend"
+        }
+    ],
+    "Iwara Prompt": [
+        {
+            "title": "Iwara description",
+            "prompt": "LIKE AND FOLLOW PLEASE!!! 🥀💔\n\nCHECK MY IWARA PROFILE FOR MORE GOONER STUFF 💦💦💦\n\nHAVE A GOOD DAY EVERYONE 🥰🥰🥰"
+        }
+    ],
+    "X Post Prompt": [
+        {
+            "title": "X description",
+            "prompt": "https://linktr.ee/PresleyShaw_42\n\n@rule34nsfwclips\n@goonerhaiten\n\n#hentai #rule34 #rule34clips #gooner\n\n#hentaiclips #hentainsfw #hentaivideo #gooner\n\nGoon or Pass #paizuri #rule34 #anime #hentai #gooner #gooning\n\nFOLLOW MY X ACCOUNT TO WATCH NSFW THINGS\n\nX: @rule34nsfwclips\nX: @goonerhaiten"
         }
     ]
 }
