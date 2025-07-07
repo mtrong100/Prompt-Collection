@@ -78,6 +78,8 @@ function setActiveView(mode) {
   document.getElementById(`${mode}View`).classList.add("active");
 }
 
+setActiveView("grid3");
+
 function displayData(data) {
   const container = document.getElementById("categoriesContainer");
   container.innerHTML = "";
